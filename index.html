@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 1</title>
+</head>
+<body>
+  <h1>Execução do Desafio 1</h1>
+  <ul>
+    <li><a href="#internet"></a>O que é a internet?</li>
+    <li><a href="#html"></a>O que é HTML?</li>
+    <li><a href="#tagtexto"></a>Tags de Texto</li>
+    <li><a href="#taglista"></a>Tags de Lista</li>
+    <li><a href="#taginput"></a>Tags de Input</li>
+    <li><a href="#tagancora"></a>Tags de Link</li>
+  </ul>
+  
+  <hr />
+  
+  <h2>O que é a internet?</h2>
+  <p> A internet é uma rede de computadores que permite a comunicação entre dispositivos conectados a ela. Ela é composta por uma rede de servidores e computadores que compartilham informações e recursos entre si. A internet é usada para acessar informações, enviar e receber mensagens, fazer compras online, entre outras coisas. </p>
+
+  <hr />
+
+  <h2>O que é HTML?</h2>
+  <p> HTML (Hypertext Markup Language) é uma linguagem de marcação usada para criar páginas da web. Ele é usado para estruturar e organizar o conteúdo de uma página da web, incluindo texto, imagens, links e outros elementos. O HTML é usado para criar a estrutura básica de uma página da web, e é interpretado pelos navegadores para exibir o conteúdo da página. </p> 
+
+  <hr />
+
+  <h2>Tags de Texto</h2>
+  <p> As tags HTML são elementos que são usados para identificar e estruturar o conteúdo de uma página da web. Elas são representadas por palavras entre angle brackets (&lt; e &gt;). Por exemplo, a tag &lt;p&gt; é usada para criar um parágrafo de texto. </p>
+
+  <hr />
+
+  <h2>Tags de Lista</h2>
+  <p>Tags de Lista são aquelas destinadas a organizar um texto em forma de listagem. Os itens dessa lista podem ser ordenados e não ordenados.</p>
+  <p>Listas não ordenadas são compostas pela tag &lt;ul&gt; &lt;/ul&gt;", com os itens aninhados nas tag &lt;li&gt; &lt;/li&gt;, conforme o exemplo:</p>
+  <h3>Estrutura:</h3>
+  <p>&lt;ul&gt;</p>
+  <p>&lt;li&gt; Item 1 &lt;/li&gt;</p>
+  <p>&lt;li&gt; Item 2 &lt;/li&gt;</p>
+  <p>&lt;li&gt; Item 3 &lt;/li&gt;</p>
+  <p>&lt;/ul&gt;</p>
+  <h3>Saída:</h3>
+  <ul>
+    <li> Item 1 </li>
+    <li> Item 2 </li>
+    <li> Item 3 </li>
+  </ul>
+
+  <p>O mesmo é válido para listas ordenadas, porém, nesses casos a lista é representada pela tag &lt;ol&gt;, conforme o exemplo abaixo:</p>
+  <h3>Estrutura:</h3>
+  <p>&lt;ol&gt;</p>
+  <p>&lt;li&gt; Item 1 &lt;/li&gt;</p>
+  <p>&lt;li&gt; Item 2 &lt;/li&gt;</p>
+  <p>&lt;li&gt; Item 3 &lt;/li&gt;</p>
+  <p>&lt;/ol&gt;</p>
+  <h3>Saída:</h3>
+  <ol>
+    <li> Item 1 </li>
+    <li> Item 2 </li>
+    <li> Item 3 </li>
+  </ol>
+  
+  <hr>
+
+  <h3>Tags de Input</h3>
+  <p>Tags de Input são aquelas destinadas a capturar informações do usuário. Elas podem ser de vários tipos, como:</p>
+  <ul>
+    <li>Input de texto</li>
+    <li>Input de número</li>
+    <li>Input de data</li>
+    <li>Input de e-mail</li>
+  </ul>
+  <p>As tags de input são usadas para criar campos de entrada de dados no formulário. Elas são representadas pela tag &lt;input&gt; e podem ter vários
+    atributos, como:</p>
+    <ul>
+      <li>type: define o tipo de input</li>
+      <li>name: define o nome do campo</li>
+      <li>placeholder: define o texto de ajuda</li>
+      <li>required: define se o campo é obrigatório</li>
+    </ul>
+    <p>Exemplo de uso:</p>
+    <p>&lt;input type="text" name="nome" placeholder="Digite seu nome " required&gt;</p>
+    <p>Essa tag de input é de tipo texto, com o nome "nome", e sua aparência quando interpretada pelo navegador, fica assim:</p>
+    <input type="text" name="nome" placeholder="Digite seu nome" required>
+
+    <hr>
+
+    <h3>Tags de Link</h3>
+    <p>Tags de link são aquelas destinadas a criar links para outras páginas ou recursos. Elas são representadas pela tag &lt;a&gt; e podem ter vários atributos, tais como:</p>
+    <ul>
+      <li>href: define a URL do link</li>
+      <li>title: define o título do link</li>
+      <li>target: define a janela de exibição do link</li>
+    </ul>
+    <p>Exemplo de uso:</p>
+    <p>&lt;a href="https://www.google.com" title="Ir para o Google" target="_blank"&gt;Ir para o Google&lt;/a&gt;</p>
+    <p>Essa tag de link é para a URL "https://www.google.com", com o título "Ir para o Google" e a janela de exibição aberta em uma nova janela, conforme o exemplo abaixo:</p>
+    <a href="https://www.google.com" title="Ir para o Google" target="_blank">Ir para o Google</a>
+</body>
+</html>
